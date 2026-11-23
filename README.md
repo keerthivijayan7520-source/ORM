@@ -43,7 +43,7 @@ Execute Django admin using localhost and create details for 10 entries
 ### from django.contrib import admin
 
 
-###  Car(models.Model):
+###  class Car(models.Model):
 
 ###     car_id = models.CharField(
 ###         max_length=20,
@@ -65,8 +65,8 @@ Execute Django admin using localhost and create details for 10 entries
 
 ###     color = models.CharField(max_length=50)
 
-###    def _str_(self):
-###        return self.brand + " " + self.model
+###     def __str__(self):
+###         return self.brand + " " + self.model
 
 
 ### class CarAdmin(admin.ModelAdmin):
@@ -81,7 +81,6 @@ Execute Django admin using localhost and create details for 10 entries
 ###         'quantity',
 ###         'color'
 ###    )
-###     ```
 
 ## output
 Screenshot 2026-11-23 210035.png
