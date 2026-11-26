@@ -83,6 +83,7 @@ Execute Django admin using localhost and create details for 10 entries
 ###    )
 
 ## output
-Screenshot 2026-11-23 210035.png
+<img width="1107" height="523" alt="Screenshot 2026-11-23 210035" src="https://github.com/user-attachments/assets/e2eef6ea-3508-41b2-bd46-4da6c6b2cdfd" />
+
 ## RESULT
 Thus the program for creating vehicle service Database using ORM hss been executed successfully.
